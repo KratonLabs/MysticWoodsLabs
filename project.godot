@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="MysticWoodsLabs"
+run/main_scene="res://scene/player.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
-config/icon="res://icon.svg"
+config/icon="res://art/icon.svg"
+
+[display]
+
+window/stretch/scale=4.0
 
 [rendering]
 
-renderer/rendering_method="mobile"
+textures/canvas_textures/default_texture_filter=0
