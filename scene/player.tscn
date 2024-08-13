@@ -419,5 +419,6 @@ script = ExtResource("1_g67js")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(102, 54)
 sprite_frames = SubResource("SpriteFrames_u8nl3")
 animation = &"death"
